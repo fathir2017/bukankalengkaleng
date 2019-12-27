@@ -8,7 +8,7 @@ if (!file_exists('token')) {
 
 }
 
-include ("top.php");
+include ("func.php");
 
 echo "\n";
 
