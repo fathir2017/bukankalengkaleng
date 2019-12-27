@@ -122,9 +122,9 @@ function register($no)
 
     $nama = nama();
 
-    $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
+    $email = str_replace(" ", "", $nama) . mt_rand(1000, 9999);
 
-    $data = '{"email":"'.$email.'+11@gmail.com","name":"'.$nama.'","phone":"+1'.$no.'","signed_up_country":"ID"}';
+    $data = '{"email":"'.$email.'@gmail.com","name":"'.$nama.'","phone":"+1'.$no.'","signed_up_country":"ID"}';
 
     $register = request("/v5/customers", "", $data);
 
@@ -286,7 +286,7 @@ function claim($token)
 
     {
 
-    $data = '{"promo_code":"GOFOODSANTAI19"}';    
+    $data = '{"promo_code":"GOFOODSENANG12"}';    
 
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
 
@@ -314,7 +314,7 @@ function claim($token)
 
     {
 
-    $data = '{"promo_code":"GOFOODSANTAI11"}';    
+    $data = '{"promo_code":"GOFOODSENANG19"}';    
 
     $claim = request("/go-promotions/v1/promotions/enrollments", $token, $data);
 
