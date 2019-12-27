@@ -5,8 +5,8 @@ if (!file_exists('token')) {
 }
 include ("func.php");
 echo "\n";
-echo "\e[94m            NOT SAFE FOR WORK IF2               \n";
-echo "\e[93m TERIMA KASIH GOJEK + PAKE OTAK SEBELUM MENGGUNAKAN\n";
+echo "\e[94m               NOT SAFE FOR WORK IF2               \n";
+echo "\e[93m SEBELUM MENGGUNAKAN CARI TAU DULU ARTI KATA DIATAS (NSFW)\n";
 echo "\n";
 echo "\e[96m[?] Masukkan Nomor HP ZaiyanK (US only) : ";
 $nope = trim(fgets(STDIN));
