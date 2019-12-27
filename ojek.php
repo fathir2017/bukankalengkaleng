@@ -6,7 +6,7 @@ if (!file_exists('token')) {
 include ("func.php");
 echo "\n";
 echo "\e[94m            NOT SAFE FOR WORK IF2               \n";
-echo "\e[93m TERIMA KASIH GOJEK ATAS PENGERTIANNYA\n";
+echo "\e[93m TERIMA KASIH GOJEK + PAKE OTAK SEBELUM MENGGUNAKAN\n";
 echo "\n";
 echo "\e[96m[?] Masukkan Nomor HP ZaiyanK (US only) : ";
 $nope = trim(fgets(STDIN));
@@ -29,7 +29,7 @@ if ($register == false)
       else
         {
         file_put_contents("token/".$verif['data']['customer']['name'].".txt", $verif['data']['access_token']);
-        echo "\e[93m[!] Trying to redeem Voucher : GOFOODSENANG19 !\n";
+        echo "\e[93m[!] Trying to redeem Voucher : GOFOODSENANG12 !\n";
         sleep(3);
         $claim = claim($verif);
         if ($claim == false)
